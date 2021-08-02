@@ -36,7 +36,7 @@
 			<scope>test</scope>
 		</dependency>
 		
-		<!-- spring 核心包 -->
+		<!-- spring core 核心包 -->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-core</artifactId>
