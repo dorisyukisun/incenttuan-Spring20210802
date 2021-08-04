@@ -17,6 +17,9 @@ public class Test {
 		person2.setId(2);
 		person2.setName("Mary");
 		System.out.println(person2);
+		System.out.println(person2);
+		
+		
 	}
 
 }
