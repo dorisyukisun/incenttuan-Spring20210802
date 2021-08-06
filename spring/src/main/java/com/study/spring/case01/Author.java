@@ -9,7 +9,7 @@ public class Author {
 		
 	}
 	
-	public Author(String name, Character sex, Integer age) {
+	public Author(Character sex, String name, Integer age) {
 		this.name = name;
 		this.sex = sex;
 		this.age = age;

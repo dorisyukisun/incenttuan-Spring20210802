@@ -6,11 +6,11 @@
 	<bean id="author1"
 		  scope="singleton" 
 		  class="com.study.spring.case01.Author">
-		<property name="name">
-			<value>John</value>
-		</property>
 		<property name="sex">
 			<value>男</value>
+		</property>
+		<property name="name">
+			<value>John</value>
 		</property>
 		<property name="age">
 			<value>18</value>
@@ -20,9 +20,9 @@
 	<bean id="author2"
 		  scope="singleton" 
 		  class="com.study.spring.case01.Author">
-		<constructor-arg value="Mary"></constructor-arg>
-		<constructor-arg value="女"></constructor-arg>
-		<constructor-arg value="19"></constructor-arg>		  
+		<constructor-arg value="A" index="1"></constructor-arg>
+		<constructor-arg value="女" index="0"></constructor-arg>
+		<constructor-arg value="19" index="2" type="java.lang.Double"></constructor-arg>		  
 	</bean>
 		  
 </beans>
