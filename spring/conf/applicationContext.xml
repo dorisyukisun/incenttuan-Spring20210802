@@ -31,5 +31,9 @@
 		  class="com.study.spring.case01.Author"
 		  p:name="Helen" p:sex="女" p:age="20" />
 	
+	<bean id="author4" 
+		  class="com.study.spring.case01.Author"
+		  c:name="Jo" c:sex="女" c:age="21" />
+	
 	
 </beans>
