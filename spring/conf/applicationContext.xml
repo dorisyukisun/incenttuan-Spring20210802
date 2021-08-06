@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:c="http://www.springframework.org/schema/c"
+	xmlns:p="http://www.springframework.org/schema/p"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 	
 	<bean id="author1"
@@ -22,7 +24,12 @@
 		  class="com.study.spring.case01.Author">
 		<constructor-arg value="A" index="1"></constructor-arg>
 		<constructor-arg value="女" index="0"></constructor-arg>
-		<constructor-arg value="19" index="2" type="java.lang.Double"></constructor-arg>		  
+		<constructor-arg value="19" index="2"></constructor-arg>		  
 	</bean>
-		  
+	
+	<bean id="author3" 
+		  class="com.study.spring.case01.Author"
+		  p:name="Helen" p:sex="女" p:age="20" />
+	
+	
 </beans>

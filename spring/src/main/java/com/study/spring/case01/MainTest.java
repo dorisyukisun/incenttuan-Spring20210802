@@ -10,8 +10,10 @@ public class MainTest {
 		//Author author = ctx.getBean(Author.class);
 		Author author1 = (Author)ctx.getBean("author1");
 		Author author2 = (Author)ctx.getBean("author2");
+		Author author3 = (Author)ctx.getBean("author3");
 		System.out.println(author1);
 		System.out.println(author2);
+		System.out.println(author3);
 	}
 
 }
