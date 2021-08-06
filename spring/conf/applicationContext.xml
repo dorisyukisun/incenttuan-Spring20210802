@@ -51,5 +51,11 @@
 		<constructor-arg ref="author2"></constructor-arg>
 	</bean>
 	
+	<bean id="book3" 
+		class="com.study.spring.case01.Book"
+		p:name="Java" p:price="400" p:author-ref="author3" />
 	
+	<bean id="book4" 
+		class="com.study.spring.case01.Book"
+		c:name="C#" c:price="300" c:author-ref="author4" />
 </beans>
