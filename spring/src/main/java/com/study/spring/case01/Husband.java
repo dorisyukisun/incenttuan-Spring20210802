@@ -4,6 +4,19 @@ public class Husband {
 	private String name;
     private Wife wife;
     
+    public Husband() {
+		
+	}
+    
+    public Husband(String name) {
+		this.name = name;
+	}
+    
+	public Husband(String name, Wife wife) {
+		this.name = name;
+		this.wife = wife;
+	}
+	
 	public String getName() {
 		return name;
 	}
@@ -16,6 +29,7 @@ public class Husband {
 	public void setWife(Wife wife) {
 		this.wife = wife;
 	}
+	
     
     
 }
