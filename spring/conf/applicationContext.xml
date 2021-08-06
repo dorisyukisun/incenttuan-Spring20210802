@@ -24,7 +24,7 @@
 		  class="com.study.spring.case01.Author">
 		<constructor-arg value="A" index="1"></constructor-arg>
 		<constructor-arg value="女" index="0"></constructor-arg>
-		<constructor-arg value="19" index="2"></constructor-arg>		  
+		<constructor-arg value="19" index="2"></constructor-arg>
 	</bean>
 	
 	<bean id="author3" 
@@ -35,5 +35,6 @@
 		  class="com.study.spring.case01.Author"
 		  c:name="Jo" c:sex="女" c:age="21" />
 	
+	<bean id="book1" class="com.study.spring.case01.Book"></bean>
 	
 </beans>

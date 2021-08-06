@@ -16,6 +16,8 @@ public class MainTest {
 		System.out.println(author2);
 		System.out.println(author3);
 		System.out.println(author4);
+		Book book1 = (Book)ctx.getBean("book1");
+		System.out.println(book1);
 	}
 
 }
